@@ -12,6 +12,8 @@
 
 using namespace geode::prelude;
 
+std::length_error::~length_error() _NOEXCEPT {} // do not ask...
+
 // static bool(*s_applicationDidFinishLaunchingOrig)(void*, SEL, void*, void*);
 
 // bool applicationDidFinishLaunchingHook(void* self, SEL sel, void* p1, void* p2) {
